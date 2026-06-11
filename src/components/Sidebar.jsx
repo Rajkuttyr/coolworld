@@ -9,7 +9,7 @@ const links = [
 export default function Sidebar() {
   return (
     <aside className="hidden md:flex flex-col w-56 bg-indigo-700 text-white min-h-screen">
-      <div className="px-6 py-5 text-xl font-bold border-b border-indigo-600">Vehicle Service</div>
+      <div className="px-6 py-5 text-xl font-bold border-b border-indigo-600">CoolWorld</div>
       <ul className="flex flex-col mt-4 gap-1 px-3">
         {links.map(l => (
           <li key={l.to}>
