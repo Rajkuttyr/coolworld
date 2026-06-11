@@ -35,7 +35,7 @@ export default function Home() {
   return (
     <div className="flex flex-col gap-5">
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-        <h1 className="text-2xl font-bold text-indigo-700">Dashboard</h1>
+        <h1 className="text-2xl font-bold text-indigo-700">CoolWorld</h1>
         <input
           value={query} onChange={search}
           placeholder="Search by vehicle no or phone..."
