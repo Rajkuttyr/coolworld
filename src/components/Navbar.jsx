@@ -15,7 +15,7 @@ export default function Navbar() {
   return (
     <nav className="bg-indigo-700 text-white md:hidden">
       <div className="flex items-center justify-between px-4 py-3">
-        <span className="font-bold text-lg">Vehicle Service</span>
+        <span className="font-bold text-lg">CoolWorld</span>
         <button onClick={() => setOpen(!open)}>{open ? <XIcon /> : <MenuIcon />}</button>
       </div>
       {open && (
